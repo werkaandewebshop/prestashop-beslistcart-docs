@@ -2,12 +2,12 @@
 
 Na het installeren van de module zijn er nieuwe opties in het menu van Prestashop gekomen. Een daarvan is `Catalogus` -> `Beslist.nl producten`. Wanneer u daar naartoe navigeert, ziet u een overzicht van alle producten in het systeem die op Beslist.nl gepubliceerd worden.
 
-![Beslist.nl producten](/img/overview_products.png)
+![Beslist.nl producten](../../img/overview_products.png)
 
 ## Producten selecteren
 Binnen Prestashop kunt u nu per product instellen hoe deze op Beslist.nl weergegeven dient te worden. Op de product bewerkpagina (onder `Catalogus`) vindt u een tab met de titel `Beslist.nl Winkelwagen integratie`. Op die tab staan de instellingen voor Beslist.nl.
 
-![Beslist.nl producttab](/img/overview_producttab.png)
+![Beslist.nl producttab](../../img/overview_producttab.png)
 
 Op deze tab ziet u voor alle productcombinaties een optie om deze te publiceren (via het vinkje onder `Publiceren`). Ook kunt u per combinatie een specifieke Beslist geadverteerde prijs instellen (in het veld `Specifieke prijs`). Het veld `calculated price` toont de berekende prijs (volgens de regels van de instellingen uit de [module](/configuratie/module.md)).
 

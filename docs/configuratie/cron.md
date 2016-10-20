@@ -2,7 +2,7 @@
 
 Op de module configuratiepagina kunt u klikken op `bekijk geavanceerde opties`, daar staat een link naar een script die een synchronisatie uitvoert.
 
-De bevat een secret key, zodat alleen u de synchronisatie kunt aanroepen. De url ziet eruit als:
+De link bevat een secret key, zodat alleen u de synchronisatie kunt aanroepen. De url ziet eruit als:
 
 ***http://www.uwdomeinnaam.nl/modules/beslistcart/cron.php?secure_key=UW_SECURE_KEY***
 
