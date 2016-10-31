@@ -17,3 +17,5 @@ pages:
     - 'Producten':
       - 'Producten': gebruik/producten/producten.md
       - 'Productfeed': gebruik/producten/productfeed.md
+  - Integraties:
+    - 'Channable': integraties/channable.md
