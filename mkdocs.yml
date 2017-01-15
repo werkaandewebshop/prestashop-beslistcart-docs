@@ -14,6 +14,7 @@ pages:
     - 'Producten': test/producten.md
   - Gebruik:
     - 'Orders': gebruik/orders.md
+    - 'Categorieën': gebruik/categorieen.md
     - 'Producten':
       - 'Producten': gebruik/producten/producten.md
       - 'Productfeed': gebruik/producten/productfeed.md

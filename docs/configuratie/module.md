@@ -57,7 +57,7 @@ Deze instellingen gelden alleen voor de publicaties op Beslist.be, de Belgische 
 De Beslist categoriën worden in uw Prestashop installatie opgeslagen, zodat u per product kunt selecteren in welke categorie deze komt te staan. U kunt de categoriën van Beslist opnieuw ophalen door `Update Beslist categoriën` op `JA` te zetten, en vervolgens op opslaan te klikken.
 
 * `Update Beslist categoriën`: Ververs de lokale lijst met categoriën van Beslist
-* `Standaard categorie`: Selecteer een standaardcategorie voor uw producten
+* `Standaard categorie`: Selecteer een standaardcategorie voor uw producten. Voor meer informatie over categorieën kunt u kijken op de [categorieën pagina](../gebruik/categorieen.md)
 
 ## Live verbinding
 Nadat u de testverbinding heeft geconfigureerd en de tests goed heeft uitgevoerd, kunt u de module configuren voor de productiemodus. Daarvoor hoeven maar een paar velden gewijzigd te worden:
