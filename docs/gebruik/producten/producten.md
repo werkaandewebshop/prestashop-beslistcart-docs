@@ -9,12 +9,12 @@ Binnen Prestashop kunt u nu per product instellen hoe deze op Beslist.nl weergeg
 
 ![Beslist.nl producttab](../../img/overview_producttab.png)
 
-Op deze tab ziet u voor alle productcombinaties een optie om deze te publiceren (via het vinkje onder `Publiceren`). Ook kunt u per combinatie een specifieke Beslist geadverteerde prijs instellen (in het veld `Specifieke prijs`). Het veld `calculated price` toont de berekende prijs (volgens de regels van de instellingen uit de [module](/configuratie/module.md)).
+Op deze tab ziet u voor alle productcombinaties een optie om deze te publiceren (via het vinkje onder `Publiceren`). Ook kunt u per combinatie een specifieke Beslist levertijd instellen.
 
-Wanneer u op de titel van een product klikt, kunt u nog enkele geavanceerde instellingen toepassen, zoals:
+Wanneer u op de titel van een product klikt, kunt u de levertijden aanpassen:
 
- * `Custom EAN`: Een override EAN (als bij Beslist.nl een ander EAN nummer bekend is)
- * `Custom Levertijd`: Een override voor de levertijd van het product, wanneer dit niet is ingevuld wordt de levertijd uit de configuratie gebruikt.
+ * `Custom Delivery time NL`: Een override levertijd voor Beslist.nl
+ * `Custom Delivery time BE`: Een override levertijd voor Beslist.be
 
 ## Producten bijwerken
 De module zorgt ervoor dat er een bericht naar Beslist.nl wordt gestuurd nadat er bepaalde aanpassingen zijn gebeurd (momenteel zijn dit aanpassingen aan voorraad en prijs). Deze melding gebeurt onder water, u merkt er dus normaal gesproken niets van.

@@ -13,9 +13,9 @@ Binnen Prestashop dient u per product in te stellen hoe deze op Beslist.nl en Be
 
 ![Beslist.nl producttab](../img/overview_producttab.png)
 
-Op de tab staat bovenaan welke Beslist productcategorie gebruikt moet worden. U kunt zoeken in het veld door te typen. Selecteer een categorie voor uw product.
+Op de tab staat bovenaan welke Beslist productcategorie gebruikt moet worden. U kunt zoeken in het veld door te typen. Selecteer een categorie voor uw product. Dit is optioneel, het kan zijn dat Beslist de mapping voor uw producten aan hun kant instelt.
 
-Op deze tab ziet u ook voor alle productcombinaties een optie om deze te publiceren (via het vinkje onder `Publiceren`). Ook kunt u per combinatie een specifieke Beslist.nl prijs instellen (in het veld `Specifieke prijs`). Klik voor een product aan dat deze op Beslist gepubliceerd moet worden en sla het product op.
+Op deze tab ziet u ook voor alle productcombinaties een optie om deze te publiceren (via het vinkje onder `Publiceren`). Ook kunt u per combinatie een specifieke Beslist levertijd instellen (klik op het product om deze velden te tonen). Klik voor een product aan dat deze op Beslist gepubliceerd moet worden en sla het product op.
 
 ## Producten synchroniseren
 Wanneer er een nieuw product wordt geselecteerd voor Beslist, wordt deze pas na de volgende productfeed run meegenomen. Het duurt dus meestal een tijd voordat uw product pas zichtbaar is. Nadat het product zichtbaar is kunnen voorraad en prijsupdates wel snel verwerkt worden.
@@ -25,4 +25,4 @@ U kunt de status van de productsynchronisatie inzien op de `Catalogus` -> `Besli
 Als er een andere status dan `OK` staat kunt u de knop `Synchroniseer producten` bovenin gebruiken om de producten te synchroniseren. De module zal de gewijzigde produten opnieuw aan Beslist proberen aan te bieden.
 
 ## Testdata verwijderen
-In het `Bewerk product` scherm kunt u het vinkje bij `Publiceren` verwijderen en `Specifieke prijs` op 0 zetten. Hiermee wordt het product van Beslist verwijderd. De voorraad wordt op 0 gezet, waardoor mensen het niet zullen bestellen. Na de volgende productfeed run is het product daadwerkelijk weg van Beslist.
+In het `Bewerk product` scherm kunt u het vinkje bij `Publiceren` verwijderen en de levertijden leegmaken. Hiermee wordt het product van Beslist verwijderd. De voorraad wordt op 0 gezet, waardoor mensen het niet zullen bestellen. Na de volgende productfeed run is het product daadwerkelijk weg van Beslist.

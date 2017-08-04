@@ -9,7 +9,7 @@ Na het installeren van de module zijn er nieuwe opties in het menu van Prestasho
 ![Beslist.nl orders](../img/overview_orders.png)
 
 ## Testproduct aanmaken
-Om de test te kunnen gebruiken dient u eerst een product te hebben die correspondeert met het product dat Beslist gaat melden. Hiervoor is het nodig om een product in Prestashop aan te maken (of tijdelijk een bestaand product te wijzigen).
+Om de test te kunnen gebruiken dient u eerst een product te hebben dat correspondeert met het product dat Beslist gaat melden. Hiervoor is het nodig om een product in Prestashop aan te maken (of tijdelijk een bestaand product te wijzigen).
 
 1. Maak een (tijdelijk) product, bijv. `Beslist testproduct`.
 2. Vul een naam voor het product in.
