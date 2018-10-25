@@ -56,10 +56,3 @@ Na een succesvolle installatie ziet u de :doc:`Module configuratiepagina <config
 
    integraties/channable
 
-
-
-Inhoud
-==================
-
-* :ref:`genindex`
-* :ref:`search`
