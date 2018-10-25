@@ -73,7 +73,7 @@ Categorieën
 De Beslist categoriën worden in uw Prestashop installatie opgeslagen, zodat u per product kunt selecteren in welke categorie deze komt te staan. U kunt de categoriën van Beslist opnieuw ophalen door `Update Beslist categoriën` op `JA` te zetten, en vervolgens op opslaan te klikken.
 
 * `Update Beslist categoriën`: Ververs de lokale lijst met categoriën van Beslist
-* `Standaard categorie`: Selecteer een standaardcategorie voor uw producten. Voor meer informatie over categorieën kunt u kijken op de [categorieën pagina](../gebruik/categorieen.md)
+* `Standaard categorie`: Selecteer een standaardcategorie voor uw producten. Voor meer informatie over categorieën kunt u kijken op de :doc:`categorieën pagina <gebruik/categorieen>`_
 
 Live verbinding
 ^^^^^^^^^^^^^^^
@@ -82,4 +82,4 @@ Nadat u de testverbinding heeft geconfigureerd en de tests goed heeft uitgevoerd
 * `Gebruik testverbinding`: Zet dit veld op `NEE`
 * `Shopitem API key`: Uw Shopitem API sleutel
 
-U bent nu klaar om orders te ontvangen. Lees in de [gebruikersdocumentatie](../gebruik/orders.md) hoe dit werkt.
+U bent nu klaar om orders te ontvangen. Lees in de :doc:`gebruikers documentatie <gebruik/orders>`_ hoe dit werkt.
