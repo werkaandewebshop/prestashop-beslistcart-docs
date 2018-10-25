@@ -3,7 +3,7 @@ site_description: Verbind Prestashop met uw Beslist.nl Winkelwagen account
 theme: readthedocs
 strict: true
 
-pages:
+nav:
   - Home: index.md
   - Configuratie:
     - 'Beslist.nl': configuratie/beslist.md

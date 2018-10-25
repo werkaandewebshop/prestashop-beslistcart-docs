@@ -1,13 +1,12 @@
 # Productfeed
 
-De module heeft een mogelijkheid om een feed te genereren. Deze feed is te vinden op de volgende locatie:
+De module heeft een mogelijkheid om een feed te genereren. De generator moet worden ingesteld via cron.
+Een voorbeeld van een commando staat op de module configuratiepagina (onder 'Bekijk geavanceerde opties).
 
-***http://www.uwdomeinnaam.nl/modules/beslistcart/feed.php***
+Bijvoorbeeld:
 
-Het is verstandig om 's nachts met een crontaak de output weg te schrijven naar een vaste locatie, en die locatie aan Beslist te melden. Dit kunt u doen door de volgende crontaak aan te maken:
-
+```bash
+0 1 * * * curl -L --max-redirs -1 https://www.uwdomeinnaam.nl/modules/beslistcart/cron-generate.php?secure_key=XXXYYY111222333  &>/dev/null
 ```
-30 0 * * * curl "http://www.uwdomeinnaam.nl/modules/beslistcart/feed.php" > /pad/naar/uw/docroot/beslist.xml
-```
 
-Deze taak zal elke nacht om 0:30 draaien. Afhankelijk van het aantal producten kan de taak erg lang duren en erg veel geheugen gebruiken. U kunt ook een externe feed gebruiken. Het is bekend dat de module goed werkt met [Channable](http://www.channable.com). Via een externe partij hebt u ook meer controle over uw feed.
+Deze taak zal elke nacht om 1:00 draaien. Afhankelijk van het aantal producten kan de taak erg lang duren. U kunt ook een externe feed gebruiken. Het is bekend dat de module goed werkt met [Channable](http://www.channable.com). Via een externe partij hebt u meer controle over uw feed.
