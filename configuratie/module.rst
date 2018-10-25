@@ -1,16 +1,20 @@
-# Module configuratie
+Module configuratie
+===================
 
 De module configuratie is te vinden in uw Prestashop installatie. Navigeer naar `Modules` -> `Modules en Services`, zoek de `Beslist Shopping cart integration` module en klik op `Configureer`.
 
-## Configureer de testverbinding
+Configureer de testverbinding
+-----------------------------
 Het is zeer aan te raden om eerst een testverbinding te configureren. Van Beslist heeft u (als het goed is) een de gegevens voor een testverbinding ontvangen. Ook wanneer u in een ander systeem draait is het belangrijk eerst de Test API keys te gebruiken.
 
 ***Let er goed op dat u de Test API sleutels gebruikt voor de testverbinding***
 
-## Configuratie opties
+Configuratie opties
+-------------------
 Hier vindt u een korte uitleg voor elke configuratie optie.
 
-### Beslist productfeed instellingen
+Beslist productfeed instellingen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 De instellingen onder de kop `Beslist productfeed instellingen` hebben alleen betrekking op de productfeed functionaliteit van de module.
 
 * `Standaard maatattribuut`: Indien uw producten gebruik maken van verschillende maten, kunt u dat hier opgeven.
@@ -19,7 +23,8 @@ De instellingen onder de kop `Beslist productfeed instellingen` hebben alleen be
 * `Beslist productreferentie veld`: Hier geeft u aan welk veld wordt gebruikt als uniek veld. Als het goed is hebt u dit aan Beslist doorgegeven. Standaard gebruikt de module een combinatie van het Prestashop ID van het product en het productcombinatie ID (dit veld wordt ook in de feed gebruikt, en werkt met Channable). De overige opties zijn EAN-13 (barcode) en Productreferentie (uw interne referentie). In de meeste gevallen werkt de standaard, probeer dat dus altijd eerst.
 * `Filter producten zonder voorraad`: Zet geen producten in de feed die geen voorraad hebben.
 
-#### Beslist.nl instellingen
+Beslist.nl instellingen
+^^^^^^^^^^^^^^^^^^^^^^^
 Deze instellingen gelden alleen voor de publicaties op Beslist.nl, de Nederlandse website.
 
 * `Gebruik Beslist.nl`: Synchroniseer orders en producten met Beslist.nl (Nederland).
@@ -27,7 +32,8 @@ Deze instellingen gelden alleen voor de publicaties op Beslist.nl, de Nederlands
 * `Levertijd`: De levertijd voor Nederlandse bestellingen waarvan de producten op voorraad zijn.
 * `Levertijd bij geen voorraad`: De levertijd voor Nederlandse bestellingen waarvan de producten niet op voorraad zijn.
 
-#### Beslist.be instellingen
+Beslist.be instellingen
+^^^^^^^^^^^^^^^^^^^^^^^
 Deze instellingen gelden alleen voor de publicaties op Beslist.be, de Belgische website.
 
 * `Gebruik Beslist.be`: Synchroniseer orders en producten met Beslist.be (België).
@@ -35,7 +41,8 @@ Deze instellingen gelden alleen voor de publicaties op Beslist.be, de Belgische 
 * `Levertijd`: De levertijd voor Belgische bestellingen waarvan de producten op voorraad zijn.
 * `Levertijd bij geen voorraad`: De levertijd voor Belgische bestellingen waarvan de producten niet op voorraad zijn.
 
-### Beslist Winkelwagen instellingen
+Beslist Winkelwagen instellingen
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 De instellingen onder de kop `Beslist Winkelwagen instellingen` gelden voor zowel Beslist.nl als Beslist.be.
 
 * `Beslist winkelwagen activeren`: Activeer of deactiveer de shopping cart functionaliteit van de module.
@@ -53,20 +60,23 @@ De instellingen onder de kop `Beslist Winkelwagen instellingen` gelden voor zowe
 * `Vanaf datum`: De datum vanaf wanneer orders moeten worden gesynchroniseerd. Dit veld wordt automatisch bijgewerkt na een synchronisatie.
 * `Huisnummer in adres2`: Indien uw producten gebruik maken van verschillende kleuren, kunt u dat hier opgeven.
 
-### Bulk operaties
+Bulk operaties
+^^^^^^^^^^^^^^
 Hier kunt u kiezen om
 
 * `Alle producten toevoegen` - Markeert alle producten voor de Beslist feed
 * `Voeg standaardcategorieën toe` - Zet de Beslist.nl categorieën op een best effort manier op de producten
 * `Markeer 1000 as bijgewerkt` - Markeert 1000 producten zodat deze kunnen worden gemeld via de Shopitem API.
 
-### Categoriën
+Categorieën
+^^^^^^^^^^^
 De Beslist categoriën worden in uw Prestashop installatie opgeslagen, zodat u per product kunt selecteren in welke categorie deze komt te staan. U kunt de categoriën van Beslist opnieuw ophalen door `Update Beslist categoriën` op `JA` te zetten, en vervolgens op opslaan te klikken.
 
 * `Update Beslist categoriën`: Ververs de lokale lijst met categoriën van Beslist
 * `Standaard categorie`: Selecteer een standaardcategorie voor uw producten. Voor meer informatie over categorieën kunt u kijken op de [categorieën pagina](../gebruik/categorieen.md)
 
-## Live verbinding
+Live verbinding
+^^^^^^^^^^^^^^^
 Nadat u de testverbinding heeft geconfigureerd en de tests goed heeft uitgevoerd, kunt u de module configuren voor de productiemodus. Daarvoor hoeven maar een paar velden gewijzigd te worden:
 
 * `Gebruik testverbinding`: Zet dit veld op `NEE`
